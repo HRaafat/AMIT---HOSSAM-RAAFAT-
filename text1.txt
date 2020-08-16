@@ -1,0 +1,28 @@
+int main()
+{
+    unsigned int x;
+    printf("please enter your dgree");
+    scanf("%d",&x);
+    if (x>80)
+    {
+        printf("exelent");
+    }
+    else if (x>60)
+    {
+        printf("very good");
+    }
+    else if (x>50)
+    {
+        printf("good");
+    }
+    else if (x>40)
+    {
+        printf("weak");
+    }
+    else
+    {
+     printf("fail");
+    }
+
+    return 0;
+}
